@@ -1,0 +1,122 @@
+/*Jorge Valencia Abad*/
+/*jorge.valaba@educa.jcyl.es*/
+body{
+    background-color: #37474f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 30px;
+    background-color: #102027;
+    
+    color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #37474f;
+}
+.rep{
+    margin-top: 2%;
+    margin-bottom: 15px;
+    padding-top:  3%;
+    padding-bottom:  5%;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+p{
+    padding: 5%;
+    
+}
+.l1{
+    flex:30%;
+    margin-top: 4%;
+    font-size: 42px;
+    text-align: right;
+}
+.nav{
+	width: 100%;
+	margin: 30px auto;
+	background: #102027;
+    border-radius: 5px;
+    flex:70%;
+}
+
+
+ul{
+	list-style: none;
+}
+#Icon{
+    font-size: 42px;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li a , .dropbtm{
+	display: block;
+	padding: 15px 20px;
+	color: #fafafa;
+	text-decoration: none;
+    font-size: 17px;
+}
+
+.menu li a:hover, .dropdown:hover .dropbtm{
+	color:#ffffff;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #62727b;
+    min-width: 100px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    border-radius: 10px;
+    background-color:  #004c8b;
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+#rep{
+    padding: 12px;
+}
+footer{
+    padding: 12px;
+    background-color: #102027;
+    color:#fafafa;
+    border-radius: 5px;
+
+}
+ul{
+    list-style-type: none;
+}
+table {
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
