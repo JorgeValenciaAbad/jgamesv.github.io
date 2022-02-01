@@ -1,0 +1,35 @@
+
+   main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 1rem;
+    
+    } 
+    .main-cont{
+        display: flex;
+        flex-direction: column;
+        flex: 33%;
+        padding: 0.2rem;
+        align-items: center;
+
+    }
+
+@media(max-width:800px)  {
+    .main-cont{
+        display: flex;
+        flex-direction: column;
+        flex: 50%;
+        
+
+    }
+
+}
+@media(max-width:599px) {
+
+    .main-cont{
+        display: flex;
+        flex-direction: column;
+        flex: 100%;
+    }
+
+}
