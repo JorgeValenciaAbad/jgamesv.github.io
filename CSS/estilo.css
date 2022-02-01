@@ -1,122 +1,103 @@
 /*Jorge Valencia Abad*/
 /*jorge.valaba@educa.jcyl.es*/
+html{
+    height:100%;
+}
+
 body{
-    background-color: #37474f;
+    padding:0px;
+    margin:0px;
+    height:100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    padding: 30px;
-    background-color: #102027;
-    
+    background-color: #161616;
     color: #ffffff;
-    border-radius: 5px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
 }
-.contenedor{
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: #37474f;
+.nav{
+
+    display:flex;
+    
 }
-.rep{
-    margin-top: 2%;
-    margin-bottom: 15px;
-    padding-top:  3%;
-    padding-bottom:  5%;
-    background-color: #fafafa;
-    border-radius: 5px;
-}
-p{
-    padding: 5%;
+.menu-item{
+
+    padding: 0.5rem;
     
 }
 .l1{
-    flex:30%;
-    margin-top: 4%;
-    font-size: 42px;
-    text-align: right;
-}
-.nav{
-	width: 100%;
-	margin: 30px auto;
-	background: #102027;
-    border-radius: 5px;
-    flex:70%;
+
+    font-size: 1.5rem;
+    padding: 0.3rem;
+
 }
 
+.menu-item a, footer a, .apu-item a,.prac-item a{
 
-ul{
-	list-style: none;
-}
-#Icon{
-    font-size: 42px;
-}
-
-.menu > li{
-	position: relative;
-	display: inline-block;
-}
-
-.menu > li a , .dropbtm{
-	display: block;
-	padding: 15px 20px;
-	color: #fafafa;
-	text-decoration: none;
-    font-size: 17px;
-}
-
-.menu li a:hover, .dropdown:hover .dropbtm{
-	color:#ffffff;
-	transition: all .3s;
-}
-
-/* Submenu*/
-
-li.dropdown {
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #62727b;
-    min-width: 100px;
-    z-index: 1;
-    border-radius: 10px;
-  }
-  
-  .dropdown-content a {
-    padding: 12px 16px;
     text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    border-radius: 10px;
-    background-color:  #004c8b;
-    }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-
-  }
-#rep{
-    padding: 12px;
-}
-footer{
-    padding: 12px;
-    background-color: #102027;
-    color:#fafafa;
-    border-radius: 5px;
+    color: #ffffff;
 
 }
-ul{
-    list-style-type: none;
+a{
+
+    text-decoration: none;
+    color: #161616;
+
+
 }
-table {
-    width: 60%;
+.menu-item a:hover, footer a:hover, .apu-item a:hover,.prac-item a:hover{
+
+    color: #0067ce;
+
+}
+main{
+    margin: 2rem;
+}
+.apu-item{
+
+    display:grid;
+    grid-template-columns: auto auto auto ;
+
+}
+
+.prac-item{
+
+    display:grid;
+    grid-template-columns: auto auto auto;
+
+}
+.link{
+
+    background-color: #161616;
+    margin: 0.5rem;
+    font-size: 1.2rem;
     text-align: center;
-    border-collapse: collapse;
+    padding: 1rem  0.5rem ;
+    border-radius:0.2rem ;
+    
+}
+
+footer{
+    background-color: #161616;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+.redes{
+
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.redes-item{
+
+    padding: 0 2rem;
 }
 
