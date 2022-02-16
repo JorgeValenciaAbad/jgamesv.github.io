@@ -1,5 +1,8 @@
 /*Jorge Valencia Abad*/
 /*jorge.valaba@educa.jcyl.es*/
+*{
+  box-sizing: border-box;
+}
 html {
   height: 100%;
 }
