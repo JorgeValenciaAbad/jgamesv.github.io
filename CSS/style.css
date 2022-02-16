@@ -98,6 +98,7 @@ main {
 
 .nombre {
   margin: 1rem;
+  padding: 1.5rem;
 }
 
 button {
@@ -184,7 +185,7 @@ footer {
   color: #ffffff;
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 2.5rem;
   text-align: center;
 }
 
