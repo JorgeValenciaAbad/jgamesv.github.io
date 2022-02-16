@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+    color: $negro;
+}
+.menu-item a:hover, footer a:hover, .apu-item a:hover,.prac-item a:hover{
+    color: $azul;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    max-width: 60%;
+    margin-left: 20%;
+    height: 75vh;
+    
+}
+.buscar{
+    text-align: center;
+}
+.secciones{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 2rem;
+}
+.seccion{
+    display: flex;
+    margin: 1rem;
+    background-color: $negro2;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.seccion-item{
+    margin: 0.5rem;
+}
+.icono{
+    color: $azul;
+}
+.texto{
+    color: $blanco;
+    padding-top: 0.2rem;
+}
+.nombre{
+    margin: 1rem;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.login{
+    border: $negro solid 1px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    border-radius: 0.5rem;
+}
+.main{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left:38% ;
+}
+.main-item{
+    display: flex;
+}
+.apartados{
+    padding: 1rem;
+    margin: 5rem;
+}
+.campo{
+    padding: 1rem;
+    text-align: center;
+}
+#create{
+    color: $azul;
+}
+@media (max-width: 800px) {
+    .nav {
+      display: none;
+    }
+  
+    .ham, .logo {
+      display: block;
+      margin: 0.5rem;
+    }
+    .main{
+        margin-left:5% ;
+    }
+
+    .buscar{
+        display: none;
+    }
+    .secciones{
+    
+        display:grid;
+        grid-template-columns: auto;
+    
+    }
+    main{
+        height: auto;
+    }
+}
